@@ -1,0 +1,66 @@
+input, select{
+    text-decoration: none;
+    text-align: center;
+    color: #3cbabe;
+    border: 2px solid #3cbabe;
+    border-radius: 4px;
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    font-family: Arial;
+    font-weight: 600;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+.row:after {
+    margin-top: 2%;
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.column {
+    float: left;
+    border-radius: 50px;
+}
+
+.right {    
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 20px;
+    
+}
+
+.left {
+    text-align: center;
+    border-radius: 50px;
+    
+    /* border-right: 3px solid black;  */
+    width: 20%;
+    
+}
+
+.logowanie{
+    text-align: center;
+    margin: auto;
+    
+}
+
+table {
+
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid #3cbabe;
+        border-radius: 4px;
+        width: 800px;
+        line-height: 40px;
+        font-family: Arial;
+        font-weight: 400;
+        margin: auto;
+}
